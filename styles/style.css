@@ -91,13 +91,15 @@ body {
 
 .blog-title {
     font-weight: bold;
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    font-size: 1.6em;
+    margin-bottom: 20px;
 }
 
 .blog-text {
-    margin-bottom: 60px;
+    margin-bottom: 75px;
     text-align: justify;
+    font-size: 0.9em;
+
 }
 .blog-class {
     margin: 0 600px;
@@ -118,3 +120,22 @@ body {
     margin: 0 auto;
 
   }
+
+.remarcar {
+  background-color: rgb(255, 255, 177);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+blog-text, ul {
+  margin-top: -10px;
+  margin-bottom: 22px;
+}
