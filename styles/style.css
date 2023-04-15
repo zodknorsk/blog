@@ -7,23 +7,27 @@ body {
     background-color: #f5f5f5;
     font-family: "Jost";
     font-weight: medium;
-
   }
   
-  ::selection {
+::selection {
     background-color: rgb(255, 255, 177);
   }
   
-  :visited {
-    color: tomato;
+:visited {
+    color: rgb(0, 0, 0);
   }
   
-  a {
-    color: black;
+a {
+    color: rgb(0, 0, 0);
     text-decoration: none;
   }
 
-  .title {
+.col-black {
+    color: black;
+  }
+  
+
+.title {
     display: flex;
     font-size: 18px;
     margin-top: 40px;
@@ -32,11 +36,11 @@ body {
     transform: translateX(-200px);
   }
   
-  .title .logo {
+.title .logo {
     margin-right: 10px;
   }
   
-  .logo {
+.logo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,17 +48,19 @@ body {
     margin-left: 10px;
   }
   
-  .logo img {
+.logo img {
     max-width: 100px;
     max-height: 100px;
   }
   
-  .container {
+  /* .container, .navigation and .navigation list
+      Estilizan la lista de enlaces de home */
+.container {
     display: flex;
     flex-direction: column;
   }
   
-  .nav {
+.navigation {
     flex: none;
     display: flex;
     flex-direction: column;
@@ -65,28 +71,34 @@ body {
     transform: translateX(-65px);
   }
   
-  .nav li {
+.navigation li {
     margin-bottom: 15px;
     font-size: 16px;
     font-weight: bold;
   }
 
-  .flex-header {
+.navigation a {
+    color: tomato;
+  }
+
+.flex-header {
     position: fixed;
     top: 250px;
     left: 50px;
     width: 100%;
     font-size: 16px;
     font-weight: bold;
-  
   }
+
+.active a {
+  color: tomato;
+}
 
 
 /* BLOG STYLING */
   
 .blog-body {
     min-height: 35vh;
-
 }
 
 .blog-title {
@@ -99,8 +111,8 @@ body {
     margin-bottom: 75px;
     text-align: justify;
     font-size: 0.9em;
-
 }
+
 .blog-class {
     margin: 0 600px;
     margin-top: 200px;
@@ -112,14 +124,13 @@ body {
     left: 0;
     width: 100%;
     text-align: center;
-  }
+}
 
 .line {
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     width: 50%;
     margin: 0 auto;
-
-  }
+}
 
 .remarcar {
   background-color: rgb(255, 255, 177);
