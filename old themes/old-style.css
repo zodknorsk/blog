@@ -1,0 +1,147 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 65vh;
+    margin: 0 600px;
+    background-color: #f5f5f5;
+    font-family: "Jost";
+    font-weight: medium;
+  }
+  
+::selection {
+    background-color: rgb(255, 255, 177);
+  }
+  
+:visited {
+    color: rgb(0, 0, 0);
+  }
+  
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+
+.col-red {
+    color: tomato;
+  }
+  
+
+.title {
+    display: flex;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 20px;
+    align-items: flex-end;
+    transform: translateX(-200px);
+  }
+  
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+  }
+  
+.logo img {
+    max-width: 450px;
+    max-height: 450px;
+  }
+  
+  /* .container, .navigation and .navigation list
+      Estilizan la lista de enlaces de home */
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.navigation {
+    display: flex;
+    flex-direction: column;
+    margin-top: -150px;
+    margin-right: 40px;
+    list-style: none;
+    transform: translateX(-65px);
+  }
+  
+.navigation li {
+    margin-left: 250px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* .navigation a {
+    color: rgb(0, 0, 0);
+  } */
+
+.flex-header {
+    position: fixed;
+    top: 250px;
+    left: 50px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+.active a {
+  color: #ff6347;
+}
+
+
+/* BLOG STYLING */
+  
+.blog-body {
+    min-height: 35vh;
+}
+
+.blog-title {
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+
+.blog-text {
+    margin-bottom: 75px;
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+.blog-class {
+    margin: 0 600px;
+    margin-top: 200px;
+}
+
+.blog-header {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.line {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    width: 50%;
+    margin: 0 auto;
+}
+
+.remarcar {
+  background-color: rgb(255, 255, 177);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+blog-text, ul {
+  margin-top: -10px;
+  margin-bottom: 22px;
+}
