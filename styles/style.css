@@ -115,7 +115,7 @@ color: tomato;
 
 .blog-class {
   margin: 0 600px;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .blog-header {
@@ -146,7 +146,7 @@ line-height: 1.4;
 margin-bottom: 20px;
 }
 
-blog-text, ul {
+.blog-text, ul {
 margin-top: -10px;
 margin-bottom: 22px;
 }
@@ -154,14 +154,17 @@ margin-bottom: 22px;
 /* Media queries */
 
 @media screen and (max-width: 800px) {
+
+  /* MAIN PAGE */
   main {
     margin-left: 5%;
     margin-right: 5%;
   }
+
   .home-container {
     display: block;
   }
-  
+
   .logo {
     display: flex;
     justify-content: center;
@@ -172,7 +175,7 @@ margin-bottom: 22px;
   .logo img {
     max-width: 300px;
   }
-  
+
   .navigation {
     display: absolute;
     top: 0%;
@@ -184,7 +187,6 @@ margin-bottom: 22px;
     margin-left: 2em;
     margin-bottom: 10em;
     margin-top: -8em; /* Ajusta el valor negativo para subir la lista */
-
   }
   
   .navigation li {
