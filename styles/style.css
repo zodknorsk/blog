@@ -114,7 +114,7 @@ color: tomato;
 }
 
 .blog-class {
-  margin: 0 600px;
+  margin: 0 550px;
   margin-top: 150px;
 }
 
@@ -151,50 +151,8 @@ margin-top: -10px;
 margin-bottom: 22px;
 }
 
-/* Media queries */
-
-@media screen and (max-width: 800px) {
-
-  /* MAIN PAGE */
-  main {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-
-  .home-container {
-    display: block;
-  }
-
-  .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-
-  .logo img {
-    max-width: 300px;
-  }
-
-  .navigation {
-    display: absolute;
-    top: 0%;
-  }
-
-  .navigation ul {
-    margin: 0;
-    padding: 0;
-    margin-left: 2em;
-    margin-bottom: 10em;
-    margin-top: -8em; /* Ajusta el valor negativo para subir la lista */
-  }
-  
-  .navigation li {
-    align-items: center;
-    list-style: none;
-    margin-left: -1.5rem;
-    margin-top: 0.3rem;
-  }
-
-
+.entry {
+  margin-bottom: 65px;
 }
+
+
