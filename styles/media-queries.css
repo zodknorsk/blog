@@ -47,11 +47,12 @@
 
   .flex-header {
     position: absolute;
-    top: 5em;
-    left: 9em;
+    top: 6em;
+    left: 13em;
     width: 100%;
     font-size: 16px;
     font-weight: bold;
+    font-size: 0.8em;
   }
   
 
@@ -75,7 +76,7 @@
 
   .blog-class {
     margin: 4vh;
-    margin-top: 250px;
+    margin-top: 40vh;
   }
 
   .blog-title {
@@ -101,15 +102,6 @@
   /*       POSTERS       */
   /* MOVIES AND TV SERIES */
 
-  /* .header-movies {
-    position: absolute;
-    top: 2em;
-    left: 9em;
-    width: 100%;
-    font-size: 16px;
-    font-weight: bold;
-  } */
-
   /* Reducir número de columnas a 3 */
   .poster-container {
     grid-template-columns: repeat(3, 1fr);
@@ -118,7 +110,7 @@
     justify-items: center;
     align-items: center;
     justify-content: center;
-    margin-top: 30vh;
+    margin-top: 42vh;
     margin-bottom: 1vh;
     margin-left: 1vh;
     margin-right: 1vh;
