@@ -8,7 +8,7 @@
     justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 100px;
     grid-gap: 30px;
   }
@@ -96,29 +96,3 @@
     left: 10px;
     text-align: center;
   }
-
-/* Media query para pantallas más pequeñas */
-@media (max-width: 1300px) {
-    /* Reducir número de columnas a 3 */
-  .poster-container {
-    grid-template-columns: repeat(3, 1fr);
-    max-width: 900px;
-  }
-}
-
-@media (max-width: 900px) {
-  /* Reducir número de columnas a 2 */
-  .poster-container {
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 650px;
-  }
-}
-
-@media (max-width: 650px) {
-  /* Reducir número de columnas a 2 */
-  .poster-container {
-    grid-template-columns: repeat(2, 1fr);
-    max-width: px;
-  }
-}
-

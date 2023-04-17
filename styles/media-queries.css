@@ -55,7 +55,7 @@
   }
   
 
-  .blog-header {
+  .h1-header {
     position: absolute;
     top: -0.5em;
     width: 100%;
@@ -97,6 +97,77 @@
   .blog-text p {
     font-size: 0.9em;
   }
+
+  /*       POSTERS       */
+  /* MOVIES AND TV SERIES */
+
+  /* .header-movies {
+    position: absolute;
+    top: 2em;
+    left: 9em;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+  } */
+
+  /* Reducir número de columnas a 3 */
+  .poster-container {
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-auto-rows: minmax(30vh, auto);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30vh;
+    margin-bottom: 1vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    grid-gap: 2vh;
+    max-width: 120vh;
+  }
+
+  .movie {
+    position: relative;
+    width: 95%;
+    height: 95%;
+    margin: 1.5%;
+    overflow: hidden;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    width: 20%;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+    transform: translateY(100%);
+    font-size: 35px;
+    font-family: "Jost";
+  }
+
+  .currently-watching {
+    font-size: 0.6em;
+    padding: 0.4em;
+    top: 0.6em;
+    left: 0.6em;
+  }
+
+.coming-next {
+    font-size: 0.6em;
+    padding: 5px 10px;
+    top: 0.6em;
+    left: 0.6em;
+  }
+
+  /* .h1-movies {
+    font-size: 0.8em;
+  } */
 
 
 }
