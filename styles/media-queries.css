@@ -48,7 +48,7 @@
   .flex-header {
     position: absolute;
     top: 6em;
-    left: 13em;
+    left: 6em;
     width: 100%;
     font-size: 16px;
     font-weight: bold;
@@ -75,18 +75,18 @@
   }
 
   .blog-class {
-    margin: 4vh;
-    margin-top: 40vh;
+    margin: 5vh;
+    margin-top: 20vh;
   }
 
   .blog-title {
     font-weight: bold;
     font-size: 1.6em;
-    margin-bottom: 20px;
+    margin-bottom: 1vh;
   }
       
   .blog-text {
-    margin-bottom: 75px;
+    margin-bottom: 1vh;
     text-align: justify;
     font-size: 0.9em;
   }
@@ -106,11 +106,11 @@
   .poster-container {
     grid-template-columns: repeat(3, 1fr);
     display: grid;
-    grid-auto-rows: minmax(30vh, auto);
+    grid-auto-rows: minmax(25vh, auto);
     justify-items: center;
     align-items: center;
     justify-content: center;
-    margin-top: 42vh;
+    margin-top: 20vh;
     margin-bottom: 1vh;
     margin-left: 1vh;
     margin-right: 1vh;
@@ -150,16 +150,23 @@
     left: 0.6em;
   }
 
-.coming-next {
+  .coming-next {
     font-size: 0.6em;
     padding: 5px 10px;
     top: 0.6em;
     left: 0.6em;
   }
+ 
+  .movies-series-info {
+    position: absolute;
+    width: 180px;
+    box-sizing: border-box;
+    text-align: justify;
 
-  /* .h1-movies {
-    font-size: 0.8em;
-  } */
-
+    top: 10em;
+    left: 27em;
+    font-weight: bold;
+    font-size: 0.6em;
+  }
 
 }
